@@ -19,6 +19,7 @@ body {
 	color: #48555B;
 	font-size: 13px;
   margin: 0;
+  max-width: 1440px;
 }
 
 .header {
@@ -203,7 +204,7 @@ body {
 .about__row{
   justify-content: center;
   margin-left: 5%;
-  margin-right: 250px;
+  margin-right: 250px; 
   align-items: center;
 }
 
@@ -256,8 +257,7 @@ body {
   width: 405px;
   height: 38px;
   align-items:flex-start;
-  /*margin-left: 7%;
-  margin-right: 5%;*/
+  margin:0 20px;
 }
 
 .service__row {
@@ -358,7 +358,8 @@ body {
 }
 
 .footer{
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   height: 240px;
   background: #141A20;
   align-items: center;
@@ -431,7 +432,8 @@ body {
 
 
 .copyright{
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   height: 60px;
   left: 0px;
   background: #171819; 
